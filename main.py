@@ -1,4 +1,6 @@
 import numpy as np
+import numpy.random
+
 l = [1,2,3,4,5,6]
 print(l)
 
@@ -16,4 +18,17 @@ print(a2)
 
 print(a1.ndim)
 print(a2.ndim)
+
+a3 = np.array(([[1,2,4],[5,6,7],[8,9,10]]))
+print(a3)
+print(a3.ndim)
+
+print(a3.shape)
+print(a1.shape)
+
+print(np.random.randint(2,10))
+
+
+
+
 
